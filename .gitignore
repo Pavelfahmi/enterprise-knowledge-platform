@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+# secrets / local config
+appsettings.*.local.json
+.env
+.env.*
+
+# Node / Angular (Day 2+)
+node_modules/
+dist/
+.angular/
+
+# OS / IDE
+Thumbs.db
+Desktop.ini
+.idea/
+*.log
